@@ -8,7 +8,7 @@ const getUsers = () => {
 };
 
 const getProducts = () => {
-  console.log(`Product Data: ${JSON.stringify(products)}}`);
+  console.log(`Product Data: ${JSON.stringify(products)}`);
   return products;
 };
 

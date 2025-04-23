@@ -6,7 +6,7 @@ app.use(express.json());
 const products = [{ id: 1, name: "Laptop" }];
 
 app.get("/products", (req, res) => {
-  console.log(`Product Data: ${JSON.stringify(products)}}`);
+  console.log(`Product Data: ${JSON.stringify(products)}`);
   res.json(products);
 });
 

@@ -3,7 +3,7 @@ let products = [{ id: 1, name: "Laptop" }];
 let orders = [{ id: 1, userId: 1, productId: 1 }];
 
 console.log(`User Data: ${JSON.stringify(users)}`);
-console.log(`Product Data: ${JSON.stringify(products)}}`);
+console.log(`Product Data: ${JSON.stringify(products)}`);
 console.log(`Order Data: ${JSON.stringify(orders)}`);
 
 const getAggregatedOrders = () => {

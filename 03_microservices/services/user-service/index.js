@@ -6,7 +6,7 @@ app.use(express.json());
 const users = [{ id: 1, name: "Alice" }];
 
 app.get("/users", (req, res) => {
-  console.log(`User Data: ${JSON.stringify(users)}}`);
+  console.log(`User Data: ${JSON.stringify(users)}`);
   res.json(users);
 });
 
