@@ -3,7 +3,10 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const users = [{ id: 1, name: "Alice" }];
+const users = [
+  { id: 1, name: "Alice" },
+  { id: 2, name: "Bob" },
+];
 
 app.get("/users", (req, res) => {
   console.log(`User Data: ${JSON.stringify(users)}`);

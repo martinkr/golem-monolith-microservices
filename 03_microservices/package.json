@@ -6,6 +6,9 @@
     "email": "golem@mkrause.info",
     "url": "https://mkrause.info"
   },
+  "scripts": {
+    "start": "node serve.js"
+  },
   "license": "MIT",
   "description": "Beispielcode für Golem.de",
   "dependencies": {
